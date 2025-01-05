@@ -37,6 +37,8 @@ Data Integrity: Ensure that important documents and backups remain unchanged.
 
 Development: Track changes in project files during development.
 
+# OUTPUT OF THE TASK: ![output](https://github.com/user-attachments/assets/b47a9b49-6d1e-46f0-92e2-1c34228b3f29)
+
 Customization
 The script is easy to customize. You can add more files to monitor, use different hashing algorithms, or even integrate it with other systems to send alerts through email or logging systems.
 
