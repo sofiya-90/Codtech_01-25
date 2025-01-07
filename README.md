@@ -44,3 +44,52 @@ The script is easy to customize. You can add more files to monitor, use differen
 
 Conclusion
 Our file integrity checker tool is a simple yet powerful way to ensure your files remain untouched. By using cryptographic hashing, it provides a reliable method to detect changes and safeguard your data. Whether for personal use, work, or security, this tool is a valuable asset to keep your files safe and sound.
+
+# Task2 : web_application_vulnerability_scanner
+# Tool to scan web application vulnerabilities 
+The web_application_vulnerability_scanner is a Python-based tool designed to scan web applications for common vulnerabilities such as SQL Injection and Cross-Site Scripting (XSS). The tool leverages the requests and BeautifulSoup libraries to interact with web pages and analyze the forms present in them. It helps identify security weaknesses that could potentially be exploited by attackers.
+
+Description
+The script performs the following key functions:
+
+Extract Forms:
+
+The get_forms function retrieves all HTML forms from a given URL. It handles both file URLs (e.g., file://) and HTTP/HTTPS URLs.
+
+For file URLs, it reads the HTML content from the local file system.
+
+For HTTP/HTTPS URLs, it fetches the content using the requests library.
+
+Form Details Extraction:
+
+The get_form_details function extracts useful information from each form, such as the action URL, method (GET or POST), and input fields.
+
+Submit Forms:
+
+The submit_form function submits forms with a given payload. It handles both GET and POST methods, appending the payload to the relevant input fields.
+
+Check for SQL Injection:
+
+The check_sql_injection function tests forms for SQL Injection vulnerabilities by submitting a set of SQL payloads.
+
+If the response contains the payload, it indicates a potential SQL Injection vulnerability.
+
+Check for XSS:
+
+The check_xss function tests forms for XSS vulnerabilities by submitting a set of XSS payloads.
+
+If the response contains the payload, it indicates a potential XSS vulnerability.
+
+Check for Other Vulnerabilities:
+
+The check_other_vulnerabilities function is a placeholder for additional vulnerability checks (e.g., CSRF, Open Redirects) that can be added as needed.
+
+Main Function:
+
+The main function orchestrates the scanning process. It prompts the user to enter the URL of the web application to scan and consolidates all vulnerabilities found.
+
+Conclusion
+The web_application_vulnerability_scanner is a powerful and flexible tool that aids in identifying security vulnerabilities in web applications. By leveraging common libraries like requests and BeautifulSoup, it is capable of extracting, analyzing, and testing forms for known weaknesses. The scanner provides insights into potential security risks and suggests mitigation strategies for each identified vulnerability.
+
+Developers can further extend this tool by adding more sophisticated checks for additional vulnerabilities and improving payloads to cover a broader range of attack vectors. This scanner serves as a valuable resource for enhancing the security posture of web applications, ensuring they are more resilient against common threats. You can simply input any web app URL to scan for its vulnerabilities and receive detailed reports of any issues found, or confirmation that no vulnerabilities were detected. Happy scanning, and stay secure! 🌐🔐
+
