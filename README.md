@@ -1,11 +1,11 @@
 # Codtech_01-25
-# Task 1: File_integrity_checker 
 ** Company name ** : CODTECH IT SOLUTIONS 
 ** Name ** : Tulsi Bedarkar
 ** Intern ID ** : CT08GZV
 ** Domain **: Cybersecurity and Ethical Hacking
 ** Batch duration **: December 30,2024 to January 30,2025
 ** Mentor name **: NEELA SANTOSH KUMAR
+# Task 1: File_integrity_checker 
 # Tool to Monitor File Changes
 Have you ever worried that someone might tamper with your important files, or that changes might happen without you knowing? Our tool is here to help! It's a simple Python script designed to watch over your files and alert you if anything changes.
 
