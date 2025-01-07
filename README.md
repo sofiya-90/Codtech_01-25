@@ -93,3 +93,6 @@ The web_application_vulnerability_scanner is a powerful and flexible tool that a
 
 Developers can further extend this tool by adding more sophisticated checks for additional vulnerabilities and improving payloads to cover a broader range of attack vectors. This scanner serves as a valuable resource for enhancing the security posture of web applications, ensuring they are more resilient against common threats. You can simply input any web app URL to scan for its vulnerabilities and receive detailed reports of any issues found, or confirmation that no vulnerabilities were detected. Happy scanning, and stay secure! 🌐🔐
 
+#OUTPUT :
+![web_app_vuln_scanner_r](https://github.com/user-attachments/assets/25ef10bd-b115-479e-a981-690b0d717c2d)
+![web_vuln_scanner_result](https://github.com/user-attachments/assets/fb34437b-6e1a-45dd-9738-0aa8171ac1f2)
