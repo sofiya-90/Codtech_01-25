@@ -209,3 +209,7 @@ Maintains a history of encryption and decryption operations.
 Provides a button to view the history in a new window.
 
 Conclusion: The "Advanced Encryption Tool" is a robust and visually appealing application for securely encrypting and decrypting files. It provides a straightforward way for users to protect their sensitive data using strong encryption algorithms. By incorporating a history feature, the tool also ensures users can keep track of their operations. Overall, it is a valuable utility for anyone looking to enhance their data security
+# Output:
+![Screenshot 2025-01-10 135224](https://github.com/user-attachments/assets/de660275-af03-4853-8830-a241431dc5b9)
+![Screenshot 2025-01-10 140952](https://github.com/user-attachments/assets/4535feef-a7d6-4091-8233-9e52c819a4b3)
+![Screenshot 2025-01-10 141057](https://github.com/user-attachments/assets/06a4867a-9a11-4085-b302-54e982d112a2)
