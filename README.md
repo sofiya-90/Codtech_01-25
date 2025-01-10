@@ -96,3 +96,6 @@ Developers can further extend this tool by adding more sophisticated checks for 
 #OUTPUT :
 ![web_app_vuln_scanner_r](https://github.com/user-attachments/assets/25ef10bd-b115-479e-a981-690b0d717c2d)
 ![web_vuln_scanner_result](https://github.com/user-attachments/assets/fb34437b-6e1a-45dd-9738-0aa8171ac1f2)
+
+# Task 3 : Penetration testing toolkit
+# Tool to perform various penetration testing tasks
