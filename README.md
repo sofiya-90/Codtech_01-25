@@ -134,19 +134,19 @@ Prints the status code of the response for each request.
 
 Catches and displays any request-related errors.
 
-Brute Force Attacks:
+# Brute Force Attacks:
 
 Attempts to guess passwords or keys by systematically checking all possible combinations until the correct one is found.
 
-Port Scanning:
+# Port Scanning:
 
 Scans a target's network ports to identify open and closed ports, helping to understand the services running on the target.
 
-Network Sniffing:
+# Network Sniffing:
 
 Monitors and captures network traffic to analyze the data being transmitted over the network.
 
-Listing Network Interfaces:
+# Listing Network Interfaces:
 
 Lists all available network interfaces on the machine, providing details about each interface.
 write conclusion
