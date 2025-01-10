@@ -213,4 +213,6 @@ Conclusion: The "Advanced Encryption Tool" is a robust and visually appealing ap
 ![Screenshot 2025-01-10 135224](https://github.com/user-attachments/assets/de660275-af03-4853-8830-a241431dc5b9)
 ![Screenshot 2025-01-10 141320](https://github.com/user-attachments/assets/28e48798-671e-4fbb-a9bd-d40f617a69b7)
 ![Screenshot 2025-01-10 140952](https://github.com/user-attachments/assets/4535feef-a7d6-4091-8233-9e52c819a4b3)
+![Screenshot 2025-01-10 141320](https://github.com/user-attachments/assets/28e48798-671e-4fbb-a9bd-d40f617a69b7)
+We need to enter the same key to decrypt file otherwise the file will not be decrypted 
 ![Screenshot 2025-01-10 141057](https://github.com/user-attachments/assets/06a4867a-9a11-4085-b302-54e982d112a2)
