@@ -5,6 +5,7 @@
 ** Domain **: Cybersecurity and Ethical Hacking
 ** Batch duration **: December 30,2024 to January 30,2025
 ** Mentor name **: NEELA SANTOSH KUMAR
+
 # Task 1: File_integrity_checker 
 # Tool to Monitor File Changes
 Have you ever worried that someone might tamper with your important files, or that changes might happen without you knowing? Our tool is here to help! It's a simple Python script designed to watch over your files and alert you if anything changes.
@@ -31,11 +32,14 @@ Run the Tool: Start the script, and it will begin monitoring the files.
 Practical Uses
 This tool can be used for various purposes:
 
-Security: Detect unauthorized changes to critical files.
+# Security: 
+Detect unauthorized changes to critical files.
 
-Data Integrity: Ensure that important documents and backups remain unchanged.
+# Data Integrity: 
+Ensure that important documents and backups remain unchanged.
 
-Development: Track changes in project files during development.
+# Development: 
+Track changes in project files during development.
 
 # OUTPUT OF THE TASK: ![output](https://github.com/user-attachments/assets/b47a9b49-6d1e-46f0-92e2-1c34228b3f29)
 
@@ -68,19 +72,19 @@ Submit Forms:
 
 The submit_form function submits forms with a given payload. It handles both GET and POST methods, appending the payload to the relevant input fields.
 
-Check for SQL Injection:
+# Check for SQL Injection:
 
 The check_sql_injection function tests forms for SQL Injection vulnerabilities by submitting a set of SQL payloads.
 
 If the response contains the payload, it indicates a potential SQL Injection vulnerability.
 
-Check for XSS:
+# Check for XSS:
 
 The check_xss function tests forms for XSS vulnerabilities by submitting a set of XSS payloads.
 
 If the response contains the payload, it indicates a potential XSS vulnerability.
 
-Check for Other Vulnerabilities:
+# Check for Other Vulnerabilities:
 
 The check_other_vulnerabilities function is a placeholder for additional vulnerability checks (e.g., CSRF, Open Redirects) that can be added as needed.
 
@@ -120,13 +124,13 @@ Prepends http:// if the URL does not start with http:// or https://.
 
 Validates the URL.
 
-Payload Handling:
+# Payload Handling:
 
 Encodes each payload to ensure it's safely appended to the URL.
 
 Validates the full URL with the payload.
 
-HTTP Requests:
+# HTTP Requests:
 
 Sends HTTP GET requests to the full URL with the encoded payloads.
 
@@ -159,3 +163,49 @@ Whether you're a cybersecurity professional or an enthusiast, this tool provides
 # Output
 ![Screenshot 2025-01-10 104803](https://github.com/user-attachments/assets/787e711a-e698-421e-9990-c9900209dedb)
 ![Screenshot 2025-01-10 131912](https://github.com/user-attachments/assets/a4c12c3a-582a-4b31-b5ce-bc4403851036)
+
+# Task 4 :ADVANCED ENCRYPTION TOOL
+# Purpose: 
+The primary purpose of this application is to provide a secure and efficient way for users to encrypt and decrypt files. By using strong encryption algorithms and a user-friendly interface, the tool ensures that sensitive data can be protected from unauthorized access.
+
+# Description:
+The "Advanced Encryption Tool" is a file encryption and decryption application built using Python and Tkinter. It utilizes the AES encryption algorithm and the scrypt key derivation function to ensure data security. The tool allows users to select files, encrypt them with a password, and decrypt previously encrypted files. It also maintains a history of operations and prominently displays the application name.
+
+# Overview: 
+This encryption application provides a user-friendly interface for file encryption and decryption. The main components of the application include:
+
+GUI Components:
+
+Labels for the application name.
+
+Buttons for encrypting, decrypting files, and viewing the history of operations.
+
+An entry widget to input the encryption/decryption key with an option to show/hide the key.
+
+# File Encryption:
+
+Allows users to select a file for encryption.
+
+Prompts the user to enter a password for encryption.
+
+Uses AES encryption algorithm in GCM mode to encrypt the file.
+
+Saves the encrypted file with a ".enc" extension and opens it to demonstrate successful encryption.
+
+# File Decryption:
+
+Allows users to select an encrypted file for decryption.
+
+Prompts the user to enter the password used for encryption.
+
+Uses AES decryption algorithm in GCM mode to decrypt the file.
+
+Saves the decrypted file without the ".enc" extension and opens it to demonstrate successful decryption.
+
+ # User History:
+
+Maintains a history of encryption and decryption operations.
+
+Provides a button to view the history in a new window.
+
+Conclusion: The "Advanced Encryption Tool" is a robust and visually appealing application for securely encrypting and decrypting files. It provides a straightforward way for users to protect their sensitive data using strong encryption algorithms. By incorporating a history feature, the tool also ensures users can keep track of their operations. Overall, it is a valuable utility for anyone looking to enhance their data security
