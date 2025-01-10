@@ -157,3 +157,5 @@ The pentesting tool we've crafted is a powerful utility designed to automate var
 Whether you're a cybersecurity professional or an enthusiast, this tool provides a streamlined approach to discovering and mitigating security threats, helping to enhance the overall security posture of your systems
 
 # Output
+![Screenshot 2025-01-10 104803](https://github.com/user-attachments/assets/787e711a-e698-421e-9990-c9900209dedb)
+![Screenshot 2025-01-10 131912](https://github.com/user-attachments/assets/a4c12c3a-582a-4b31-b5ce-bc4403851036)
